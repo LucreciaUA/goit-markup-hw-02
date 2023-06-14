@@ -21,6 +21,7 @@ body{
     font-weight: 400;
     line-height: 1.5;
     font-size: 16px;
+    background-color: var(--background-color-white);
 }
 .list{
     list-style-type: none;
@@ -34,34 +35,41 @@ body{
     font-size: 56px;
     text-align: center;
     line-height: 1.07;
+    letter-spacing: 0.02em
 }
 
 .second-hl{
     color: var(--text-color-headline);
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .third-hl{
     font-size: 20px;
     color: var(--text-color-headline);
     font-weight: 500;
-    line-height: 1.4;
+    line-height: 1.2;
     text-align: center;
+    
 }
 .logo{
-    color: var(--text-color-headline);
+    
+    color: var(--logo-color-web);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    line-height: 1.17;
+    font-weight: 800;
 
 
 }
 
 .logo .web{
-    color: var(--logo-color-web);
+    color: var(--text-color-headline);
 }
 
 .menu .link{
@@ -74,10 +82,11 @@ body{
     color: var(--link-color-active);
     text-decoration: underline;
 }
-
+.address{
+    font-style: normal;
+}
 .address .link{
     color: var(--text-color-main);
-    font-style: normal;
     letter-spacing: 0.02em;
 }
 
@@ -94,18 +103,21 @@ body{
 .order{
     background-color: var(--logo-color-web);
     color: var(--text-color-white);
-    border: none;
-    font-size: 16 px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
+    cursor: pointer;
 }
 
 .order:hover, .order:focus{
     background-color: var(--link-color-active);
 }
 
-.benefits{
+.paragraf{
     letter-spacing: 0.02em;
+    font-size: 16px;
 }
 .team{
     background-color: var(--background-color-team);
@@ -123,35 +135,39 @@ body{
 }
 
 .logo-d{
-    color: var(--text-color-light);
+    color: var(--logo-color-web);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    line-height: 1.17;
+    font-weight: 800;
 }
 
 .logo-d .web{
-    color: var(--logo-color-web);
+
+    color: var(--text-color-light);
 }
 
 .filter-option{
     background-color: var(--button-color-filter);
-    border: 1px solid var(--button-color-filter-border);
+    font-family: "Roboto", sans-serif;
     color: var(--button-filer-text);
     cursor: pointer;
     font-weight: 500;
-    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
 }
 
 .filter-option:hover, .filter-option:focus{
     background-color: var(--link-color-active);
-    border: none;
+
     color: var(--text-color-white);
 }
 
 .progect-card{
-    border: 1px solid var(--border-color-light);
+
     letter-spacing: 0.02em;
 }
