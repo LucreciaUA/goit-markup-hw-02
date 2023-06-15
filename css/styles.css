@@ -1,5 +1,5 @@
 :root{
---border-color-light: #E7E9FC;
+
 --background-color-dark: #2E2F42;
 --background-color-white: #fff;
 --logo-color-web: #4D5AE5;
@@ -8,7 +8,6 @@
 --text-color-headline: #2E2F42;
 --link-color-active: #404BBF;
 --button-color-filter:#F4F4FD;
---button-color-filter-border:#E5E5E5;
 --text-color-light: #F4F4FD;
 --text-color-white: #fff;
 --button-filer-text: #4D5AE5;
@@ -53,6 +52,7 @@ body{
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
+    letter-spacing: 0.02em;
     
 }
 .logo{
@@ -100,7 +100,7 @@ body{
 }
 
 
-.order{
+.order-btn{
     background-color: var(--logo-color-web);
     color: var(--text-color-white);
     font-family: "Roboto", sans-serif;
@@ -111,7 +111,7 @@ body{
     cursor: pointer;
 }
 
-.order:hover, .order:focus{
+.order-btn:hover, .order-btn:focus{
     background-color: var(--link-color-active);
 }
 
