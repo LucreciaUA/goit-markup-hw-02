@@ -118,6 +118,7 @@ body{
 .paragraf{
     letter-spacing: 0.02em;
     font-size: 16px;
+    color: var(--text-color-main);
 }
 .team{
     background-color: var(--background-color-team);
